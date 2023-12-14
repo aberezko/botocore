@@ -394,6 +394,7 @@
     "Cluster":{
       "type":"structure",
       "members":{
+        "id":{"shape":"String"},
         "Name":{"shape":"String"},
         "Version":{"shape":"String"},
         "HighAvailability":{"shape":"Boolean"},
